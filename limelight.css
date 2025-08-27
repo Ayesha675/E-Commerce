@@ -1,0 +1,93 @@
+
+@media only screen and (max-width:600px){
+  .container{
+  flex-wrap: wrap;
+
+  }
+}
+@media only screen and (max-width:400px){
+ body{
+  text-align: center;
+  
+ }
+}
+
+
+.logo{
+    display: flex;
+  align-items: center;
+  justify-content: center;   
+     margin-top: 20vh;
+     height:20vh ;
+     max-width: 40vh;
+    margin-left:80vh;
+    
+  }
+  h1{
+    /* font-family: "Passions Conflict", serif; */
+     font-size: 10vh;
+     color: black;
+  }
+   h4{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* font-family: "Playfair Display", serif; */
+     
+      font-weight: bold;
+    }
+    
+    .container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    padding: 1vh 0vh 1vh ;
+      gap: 1rem;
+      border: none;
+    }
+    .card{
+            overflow: hidden;
+        
+          }
+          .card:hover img{
+            transform: scale(1.1);
+            transition: 0.25s ease;
+          }
+       .card-body{
+        text-align: start;
+       }
+      
+      
+  
+
+  .footer-social-links{
+    display: flex;
+    gap: 15px;
+    color:white ;
+    text-decoration: none;
+  
+  
+  }
+  .footer-social-links a i{
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color:black;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    padding: 8vh 0 8vh 0;
+    margin-top: 4vh;
+  }
+  .footer-links{
+    display: flex;
+    gap: 15px;
+  }
+  .footer-links a{
+    color: white;
+    text-decoration: none;
+  }

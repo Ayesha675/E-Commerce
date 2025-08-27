@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar ki styling */
+.navbar-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-solid fa-cart-shopping{
+    height: 2vh;
+    width: 2vh;
+}
+.cart-icon i{
+    font-size: 20px;
+}
+.nav-container{
+    position: absolute;
+    top: 3.9VH;
+    background-color: none;
+    transition: 0.2s ease-in;
+    width: 100%;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2vh 2vh;
+
+}
+.nav-container:hover{
+    background-color: #fff;
+}
+.navbar-toggler-icon i{
+font-size: 30px;
+}
+
+
+.navbar-bar span{
+    /* padding-left: 32%; */
+    font-family: "Updock", cursive;
+    font-size: 7vh;
+    /* margin-top: -4vh; */
+}
+.logo-top{
+    display: flex;
+    align-items: center;
+
+   gap: 10px;
+}
+.logo-pic{
+    height: 10vh;
+    width: 10vh;
+}
+.cart{
+   font-size: 4vh;
+}
+.fa-solid{
+    padding: 0vh 2vh 2vh 3.5vh;
+    font-size: 8vh;
+}
+
+/* navbar ki styling */
+
+.add-to-cart{
+    padding: 0 7vh 0 7vh;
+    margin-top: 20vh;
+    
+    display: flex;
+    gap: 2vh;
+    justify-content: space-between;
+}
+.add-to-cart-right{
+    background-color: bisque;
+    padding: 8vh;
+
+}
+.add-to-cart-left{
+    
+    /* border-top: 1px solid grey; */
+        border-bottom: 1px solid grey;
+        flex-direction: column;
+        width: 60%;
+        gap:10px
+}
+.cart-item i {
+    font-size: 25px;
+}
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+.flex-direction-col{
+    flex-direction: column;
+}
+.cart-picture{
+   width: 30vh;
+   height: 30vh;
+}
+#add-to-cart-summary{
+padding-bottom: 3vh;
+font-size: 3vh;
+font-weight: bold;
+}
+#balace{
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+font-size: 3vh;
+font-weight: bold;
+}
+.checkout-btn{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 2vh 0;
+}
+.price{
+   font-weight: bold;
+}
+.nav-item{
+    font-family: "Quicksand", sans-serif;
+}
+.footer-social-links{
+    display: flex;
+    gap: 15px;
+    color:white ;
+    text-decoration: none;
+
+
+}
+.footer-social-links a i{
+    color: #fff;
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color:black;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    padding: 8vh 0 8vh 0;
+    margin-top: 4vh;
+}
+.footer-links{
+    display: flex;
+    gap: 15px;
+}
+.footer-links a{
+    color: white;
+    text-decoration: none;
+}

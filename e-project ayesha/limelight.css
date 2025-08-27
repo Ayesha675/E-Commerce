@@ -1,0 +1,176 @@
+
+@media only screen and (max-width:600px){
+  .container{
+  flex-wrap: wrap;
+
+  }
+}
+@media only screen and (max-width:400px){
+ body{
+  text-align: center;
+  
+ }
+}
+
+
+.logo{
+    display: flex;
+  align-items: center;
+  justify-content: center;   
+     margin-top: 20vh;
+     height:20vh ;
+     max-width: 40vh;
+    margin-left:80vh;
+    
+  }
+  h1{
+    /* font-family: "Passions Conflict", serif; */
+     font-size: 10vh;
+     color: black;
+  }
+   h4{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* font-family: "Playfair Display", serif; */
+     
+      font-weight: bold;
+    }
+    
+    .container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    padding: 1vh 0vh 1vh ;
+      gap: 1rem;
+      border: none;
+    }
+    .card{
+            overflow: hidden;
+        
+          }
+          .card:hover img{
+            transform: scale(1.1);
+            transition: 0.25s ease;
+          }
+       .card-body{
+        text-align: start;
+       }
+      
+      
+  
+
+  .footer-social-links{
+    display: flex;
+    gap: 15px;
+    color:white ;
+    text-decoration: none;
+  
+  
+  }
+  .footer-social-links a i{
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color:black;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    padding: 8vh 0 8vh 0;
+    margin-top: 4vh;
+  }
+  .footer-links{
+    display: flex;
+    gap: 15px;
+  }
+  .footer-links a{
+    color: white;
+    text-decoration: none;
+  }
+/* Ensure the navbar has a white background */
+.navbar-bar {
+  background-color: white;  /* Navbar ka background white */
+}
+
+/* Dropdown menu positioning */
+.dropdown-menu {
+  background-color: white;  /* Set dropdown background color to white */
+  border: 1px solid #ccc;   /* Optional: add border around the dropdown */
+  position: absolute;
+  z-index: 1050;  /* Ensure the dropdown is in front */
+  display: none;   /* Initially hide dropdown */
+}
+
+/* When dropdown is shown (on click or hover), show it and apply white background */
+.dropdown.show .dropdown-menu {
+  display: block;
+  background-color: white;  /* White background when dropdown is shown */
+  border: 1px solid #ccc;   /* Optional: border around dropdown */
+}
+
+/* Dropdown items text color */
+.dropdown-item {
+  color: #000;  /* Set text color to black */
+}
+
+/* Optional: Add hover effect for dropdown items */
+.dropdown-item:hover {
+  background-color: #f8f9fa;  /* Light gray background when hovered */
+  color: #000;  /* Ensure text color stays dark */
+}
+
+/* Navbar toggle button and icon */
+.navbar-toggler {
+  z-index: 1060;  /* Ensure navbar toggle stays above other elements */
+}
+
+/* Adjusting menu items to stay above everything else */
+.navbar-nav {
+  z-index:
+   1060;  /* Ensuring navbar links stay above other elements */
+}
+
+
+
+/* Dropdown menu positioning */
+.dropdown-menu {
+  background-color: white;  /* Dropdown ka background white */
+  border: 1px solid #ccc;   /* Optional: border around the dropdown */
+  position: absolute;
+  z-index: 1050;  /* Ensure the dropdown is above other elements */
+  display: none;   /* Initially hide the dropdown */
+}
+
+/* When dropdown is shown, display it with white background */
+.dropdown.show .dropdown-menu {
+  display: block;
+  background-color: white;  /* White background */
+  border: 1px solid #ccc;   /* Optional: border around dropdown */
+}
+
+/* Dropdown item styling */
+.dropdown-item {
+  color: #000;  /* Black text color for items */
+  background-color: white;  /* White background for each item */
+  padding: 10px 15px;  /* Add padding to make items look better */
+  text-decoration: none; /* Ensure no underline */
+}
+
+/* Hover effect for dropdown items */
+.dropdown-item:hover {
+  background-color: #f8f9fa;  /* Light gray background on hover */
+  color: #000;  /* Keep text color black on hover */
+}
+
+/* Ensure the toggle button and navbar stay above dropdown */
+.navbar-toggler {
+  z-index: 1060;
+}
+
+.navbar-nav {
+  z-index: 1060;  /* Ensure navbar links stay above other elements */
+}

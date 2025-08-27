@@ -1,0 +1,147 @@
+.logo{
+    height: 40vh;
+    width: 20%;
+ display: flex;
+ justify-content: center;
+ /* align-items: center;
+margin-left: 90vh; */
+margin-top: 15vh;
+margin: 15vh auto 0 auto;
+}
+
+h2{
+text-align: center;
+font-size: 5vh;
+font-family: 'Courier New', Courier, monospace;
+}
+.new{
+    text-align: center;
+    font-size: 3vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-bottom: 5vh;
+}
+.card1{
+    height: 65vh;
+    width: 25%;
+    margin-left: 5vh;
+    margin-top: 5vh;
+   border-radius: 4vh;
+    
+}
+.card2{
+    height: 65vh;
+    width: 25%;
+    margin-left: 5vh;
+    margin-top: 5vh;
+   
+}
+.card3{
+    height: 65vh;
+    width: 25%;
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+
+.card4{
+    height: 65vh;
+    width: 25%;
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+.cards{
+    display: flex;
+    justify-content:right;
+
+}
+.cards-second{
+    display: flex;
+    justify-content:right;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+}
+
+.card5{
+    height: 65vh;
+    width: 25%;
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+.card6{
+    height: 65vh;
+    width: 25%;
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+.card7{
+    height: 65vh;
+    width: 25%;
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+.card8{
+    height: 65vh;
+    width: 25%;
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color:black;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    padding: 8vh 0 8vh 0;
+    margin-top: 4vh;
+}
+.footer-social-links{
+    display: flex;
+    gap: 15px;
+    color:white ;
+    text-decoration: none;
+
+
+}
+.footer-links{
+    display: flex;
+    gap: 15px;
+}
+.footer-links a{
+    color: white;
+    text-decoration: none;
+}
+.footer-social-links a i{
+   color: white;
+    text-decoration: none;
+}
+
+/* Make sure the navbar has a white background */
+.navbar-bar {
+    background-color: white;  /* Set navbar background to white */
+  }
+  
+  /* Ensure the navbar has a higher z-index */
+  .navbar-bar {
+    position: relative;
+    z-index: 1050;  /* This is to ensure the navbar stays on top */
+  }
+  
+  /* Ensure the collapse dropdown stays above other content */
+  .collapse {
+    position: relative;
+    z-index: 1050;  /* Adjust according to your design */
+  }
+  
+  /* You may need to target the dropdown as well */
+  .navbar-nav .nav-link {
+    position: relative;
+    z-index: 1050; /* Ensures that nav items are not hidden behind other content */
+  }
+  
+  /* Optional: Targeting the dropdown menu directly to ensure it appears above other elements */
+  .dropdown-menu {
+    position: relative;
+    z-index: 1051; /* Increase the z-index if dropdown is still behind */
+  }

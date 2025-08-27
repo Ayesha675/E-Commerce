@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width:600px){
+  .container{
+  flex-wrap: wrap;
+
+  }
+}
+@media only screen and (max-width:400px){
+ body{
+  text-align: center;
+ }
+}
+nav{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 5vh;
+    margin-top: 20vh;
+    
+}
+.gulahmed-logo{
+  height: 30vh;
+  width: 30vh;
+}
+h1{
+  /* font-family: "Passions Conflict", serif; */
+  font-size: 10vh;
+  color: black;
+}
+h4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-family: "Playfair Display", serif; */
+  font-weight: bold;
+}
+.container{
+    display: flex;
+    gap: 2rem;
+    padding: 2vh 2vh;
+}  
+.card{
+  overflow: hidden;
+
+}
+.card:hover img{
+  transform: scale(1.1);
+  transition: 0.25s ease;
+}
+
+
+
+.footer-social-links{
+  display: flex;
+  gap: 15px;
+  color:white ;
+  text-decoration: none;
+
+
+}
+.footer-social-links a i{
+  color: #fff;
+  text-decoration: none;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color:black;
+  color: white;
+  align-items: center;
+  flex-direction: column;
+  padding: 8vh 0 8vh 0;
+  margin-top: 4vh;
+}
+.footer-links{
+  display: flex;
+  gap: 15px;
+}
+.footer-links a{
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,9 @@
+@media (max-width: 600px) {
+    .container{
+        width: 100%;
+        font-size: 14px;
+}
+.navbar-bar{
+    font-size: 2vh;
+}
+}
